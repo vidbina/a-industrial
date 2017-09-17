@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1505574909
-ModificationTime: 1505653381
+ModificationTime: 1505653437
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -58,8 +58,8 @@ Grid
 2022 2428 m 0
  2022 -1620 l 1024
   Named: "2022"
-0 2625 m 4
- 0 -1423 l 1028
+0 2625 m 0
+ 0 -1423 l 1024
   Named: "2"
 -2024 -606 m 0
  4048 -606 l 1024
@@ -115,8 +115,8 @@ Grid
 1214 2631.0859375 m 0
  1214 -1416.9140625 l 1024
   Named: "1214"
-1024 2631 m 0
- 1024 -1417 l 1024
+1012 2631 m 4
+ 1012 -1417 l 1028
   Named: "center"
 EndSplineSet
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -198,11 +198,11 @@ Flags: HO
 LayerCount: 2
 Fore
 SplineSet
-810 0 m 29
+810 0 m 25
  1214 0 l 25
  1214 1010 l 25
  810 1010 l 25
- 810 0 l 29
+ 810 0 l 25
 EndSplineSet
 EndChar
 EndChars
