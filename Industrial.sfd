@@ -10,8 +10,8 @@ Version: 0.0.1
 ItalicAngle: 0
 UnderlinePosition: -202
 UnderlineWidth: 101
-Ascent: 1619
-Descent: 405
+Ascent: 1416
+Descent: 608
 InvalidEm: 0
 LayerCount: 2
 Layer: 0 0 "Back" 1
@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1505574909
-ModificationTime: 1505576517
+ModificationTime: 1505578982
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -52,15 +52,94 @@ DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
 WinInfo: 0 20 20
-OnlyBitmaps: 1
 BeginPrivate: 0
 EndPrivate
 Grid
+-2024 -606 m 0
+ 4048 -606 l 1024
+  Named: "s3"
+-2024 -404 m 0
+ 4048 -404 l 1024
+  Named: "s2"
+-2024 -202 m 0
+ 4048 -202 l 1024
+  Named: "s1"
+-2024 1414 m 0
+ 4048 1414 l 1024
+  Named: "n7"
+-2024 1212 m 0
+ 4048 1212 l 1024
+  Named: "n6"
+-2024 1010 m 0
+ 4048 1010 l 1024
+  Named: "n5"
+-2024 808 m 0
+ 4048 808 l 1024
+  Named: "n4"
+-2023.890625 606 m 0
+ 4048.109375 606 l 1024
+  Named: "n3"
+-2024 404 m 0
+ 4048 404 l 1024
+  Named: "n2"
+-2024 202 m 0
+ 4048 202 l 1024
+  Named: "n1"
+216 2631 m 0
+ 216 -1417 l 1024
+  Named: "w4"
+418 2631 m 0
+ 418 -1417 l 1024
+  Named: "w3"
+620 2631 m 0
+ 620 -1417 l 1024
+  Named: "w2"
+1832 2631 m 0
+ 1832 -1417 l 1024
+  Named: "e4"
+1630 2631 m 0
+ 1630 -1417 l 1024
+  Named: "e3"
+1428 2631 m 0
+ 1428 -1417 l 1024
+  Named: "e2"
+822 2631 m 0
+ 822 -1417 l 1024
+  Named: "w1"
+1226 2631 m 0
+ 1226 -1417 l 1024
+  Named: "e1"
 1024 2631 m 0
  1024 -1417 l 1024
   Named: "center"
 EndSplineSet
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 256 0
+BeginChars: 256 1
+
+StartChar: a
+Encoding: 97 97 0
+Width: 2024
+VWidth: 0
+LayerCount: 2
+Back
+SplineSet
+822.951574595 404 m 1049
+822.951574595 404 m 25
+ 1224.95156261 404 l 25
+ 1224.95156261 606 l 25
+ 822.951574595 606 l 25
+ 822.951574595 404 l 25
+EndSplineSet
+Fore
+SplineSet
+418 0 m 1
+ 822 0 1226 0 1630 0 c 1
+ 1630.00976562 1010 l 1
+ 1225.95410156 1211.99707031 l 1
+ 1225.94824219 1010 l 1
+ 956.637695313 1010 687.310546875 1010 418 1010 c 1
+ 418.000000006 673.333333336 417.999999999 336.666666666 418 0 c 1
+EndSplineSet
+EndChar
 EndChars
 EndSplineFont
