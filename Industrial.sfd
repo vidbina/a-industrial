@@ -1,7 +1,7 @@
 SplineFontDB: 3.0
-FontName: Industrial
-FullName: Industrial
-FamilyName: Asabina
+FontName: Asabina-Industrial
+FullName: Asabina Industrial
+FamilyName: Asabina Industrial
 Weight: Regular
 Copyright: Copyright (c) 2017, Asabina GmbH <type.industrial@asabina.de>
 UComments: "A decorative type used in the wordmark for Asabina Gmbh. The type intents to look industrial and resemble some attributes one may find in typefaces associated with sci-fi productions."
@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1505574909
-ModificationTime: 1505671433
+ModificationTime: 1505676407
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -51,7 +51,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 24 10
+WinInfo: 16 16 7
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -296,7 +296,7 @@ StartChar: e
 Encoding: 101 101 8
 Width: 1414
 VWidth: 0
-Flags: HW
+Flags: HWO
 LayerCount: 2
 Fore
 SplineSet
@@ -305,13 +305,13 @@ SplineSet
  909 404 l 25
  505 404 l 25
  505 606 l 25
-101 0 m 29
+101 0 m 25
  505 -202 l 25
  505 0 l 25
  1313 0 l 25
  1313 1010 l 25
  101 1010 l 25
- 101 0 l 29
+ 101 0 l 25
 EndSplineSet
 EndChar
 
@@ -671,11 +671,11 @@ StartChar: z
 Encoding: 122 122 25
 Width: 1414
 VWidth: 0
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-1313 1010 m 29
+1313 1010 m 25
  101 1010 l 25
  101 606 l 25
  505 606 l 25
@@ -685,7 +685,7 @@ SplineSet
  1313 404 l 1
  909 404 l 1
  1313 606 l 1
- 1313 1010 l 29
+ 1313 1010 l 25
 EndSplineSet
 EndChar
 
