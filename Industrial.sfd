@@ -51,7 +51,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 16 16
+WinInfo: 0 51 16
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -333,7 +333,7 @@ StartChar: f
 Encoding: 102 102 9
 Width: 1414
 VWidth: 0
-Flags: HWO
+Flags: HW
 HStem: -404 21G<465 505> 0 404<505 909> 606 404<505 1313>
 VStem: 101 404<-202 0 404 606>
 LayerCount: 2
@@ -345,7 +345,7 @@ SplineSet
  505 606 l 25
  505 404 l 1
  1313 404 l 25
- 1313 0 l 29
+ 1313 0 l 25
  505 0 l 1
  505 -404 l 25
  101 -202 l 25
