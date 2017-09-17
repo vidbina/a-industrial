@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1505574909
-ModificationTime: 1505689893
+ModificationTime: 1505690000
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -333,7 +333,7 @@ StartChar: f
 Encoding: 102 102 9
 Width: 1414
 VWidth: 0
-Flags: W
+Flags: HWO
 HStem: -404 21G<465 505> 0 404<505 909> 606 404<505 1313>
 VStem: 101 404<-202 0 404 606>
 LayerCount: 2
@@ -343,10 +343,10 @@ SplineSet
  1313 1010 l 25
  1313 606 l 25
  505 606 l 25
- 505 404 l 25
- 909 404 l 25
- 909 0 l 25
- 505 0 l 25
+ 505 404 l 1
+ 1313 404 l 25
+ 1313 0 l 29
+ 505 0 l 1
  505 -404 l 25
  101 -202 l 25
  101 1010 l 25
@@ -426,7 +426,7 @@ StartChar: k
 Encoding: 107 107 13
 Width: 1414
 VWidth: 0
-Flags: HWO
+Flags: HW
 HStem: 0 21G<101 505 707 1313> 606 404<505 707 1111 1313> 1394 20G<101 505>
 VStem: 101 404<0 606 1010 1414> 707 606<0 404>
 LayerCount: 2
@@ -565,7 +565,7 @@ StartChar: t
 Encoding: 116 116 19
 Width: 1414
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 0 404<505 1313> 606 404<505 909> 1394 20G<465 505>
 VStem: 101 404<404 606 1010 1212>
 LayerCount: 2
@@ -574,10 +574,10 @@ SplineSet
 101 0 m 17
  101 401 101 811 101 1212 c 9
  505 1414 l 25
- 505 1010 l 25
- 909 1010 l 25
- 909 606 l 25
- 505 606 l 25
+ 505 1010 l 1
+ 1313 1010 l 1
+ 1313 606 l 5
+ 505 606 l 1
  505 404 l 25
  1313 404 l 25
  1313 0 l 25
