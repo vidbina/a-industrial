@@ -1,12 +1,12 @@
 SplineFontDB: 3.0
-FontName: Asabina-Industrial
-FullName: Asabina Industrial
-FamilyName: Asabina Industrial
-Weight: Regular
+FontName: A-Industrial-Black
+FullName: A Industrial Black
+FamilyName: A Industrial Black
+Weight: Black
 Copyright: Copyright (c) 2017, Asabina GmbH <type.industrial@asabina.de>
 UComments: "A decorative type used in the wordmark for Asabina Gmbh. The type intents to look industrial and resemble some attributes one may find in typefaces associated with sci-fi productions."
 FontLog: "2017-9-16: Starting a prototype in FontForge (http://fontforge.org) based on some characters designed in Inkscape"
-Version: 0.0.1
+Version: 0.1
 ItalicAngle: 0
 UnderlinePosition: -202
 UnderlineWidth: 101
@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1505574909
-ModificationTime: 1505722152
+ModificationTime: 1505725741
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -51,7 +51,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 60 6 8
+WinInfo: 90 9 8
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -767,7 +767,7 @@ StartChar: at
 Encoding: 64 64 28
 Width: 2024
 VWidth: 0
-Flags: HO
+Flags: H
 LayerCount: 2
 Fore
 SplineSet
@@ -781,7 +781,7 @@ SplineSet
  608 808 l 1
  1416 808 l 1
  1416 404 l 1
- 1214 404 l 5
+ 1214 404 l 1
  1214 606 l 1
  810 606 l 1
 EndSplineSet
