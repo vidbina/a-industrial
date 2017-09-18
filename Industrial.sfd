@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1505574909
-ModificationTime: 1505744822
+ModificationTime: 1505745401
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -51,7 +51,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 48 24 10
+WinInfo: 81 9 4
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -121,7 +121,7 @@ BeginChars: 65537 30
 
 StartChar: a
 Encoding: 97 97 0
-Width: 1429
+Width: 1424
 VWidth: 0
 Flags: W
 HStem: 0 404<404 808> 606 404<404 808>
@@ -145,7 +145,7 @@ EndChar
 
 StartChar: s
 Encoding: 115 115 1
-Width: 1429
+Width: 1424
 VWidth: 0
 Flags: HW
 HStem: 0 409<0 818> 613 409<0 91 409 818>
@@ -168,7 +168,7 @@ EndChar
 
 StartChar: b
 Encoding: 98 98 2
-Width: 1429
+Width: 1424
 VWidth: 0
 Flags: HW
 HStem: 0 404<621 1025> 606 404<621 1025>
@@ -193,7 +193,7 @@ EndChar
 
 StartChar: i
 Encoding: 105 105 3
-Width: 611
+Width: 616
 VWidth: 0
 Flags: HW
 HStem: 0 21G<0 409> 1002 20G<0 409>
@@ -211,7 +211,7 @@ EndChar
 
 StartChar: n
 Encoding: 110 110 4
-Width: 1429
+Width: 1424
 VWidth: 0
 Flags: HW
 HStem: 0 21G<0 409 818 1227> 613 409<409 818>
@@ -233,7 +233,7 @@ EndChar
 
 StartChar: q
 Encoding: 113 113 5
-Width: 1429
+Width: 1424
 VWidth: 0
 Flags: HW
 HStem: -409 21G<818 858> 0 409<409 818> 613 409<409 818>
@@ -258,7 +258,7 @@ EndChar
 
 StartChar: c
 Encoding: 99 99 6
-Width: 1429
+Width: 1424
 VWidth: 0
 Flags: HW
 HStem: 0 409<409 1227> 613 409<409 1227>
@@ -279,7 +279,7 @@ EndChar
 
 StartChar: d
 Encoding: 100 100 7
-Width: 1429
+Width: 1424
 VWidth: 0
 Flags: HW
 HStem: 0 409<409 818> 613 409<409 818> 1411 20G<818 1227>
@@ -304,7 +304,7 @@ EndChar
 
 StartChar: e
 Encoding: 101 101 8
-Width: 1429
+Width: 1424
 VWidth: 0
 Flags: HW
 HStem: 0 409<409 818> 613 409<409 818>
@@ -328,7 +328,7 @@ EndChar
 
 StartChar: f
 Encoding: 102 102 9
-Width: 1429
+Width: 1424
 VWidth: 0
 Flags: HW
 HStem: -409 21G<369 409> 0 409<409 818> 613 409<409 1227>
@@ -352,7 +352,7 @@ EndChar
 
 StartChar: g
 Encoding: 103 103 10
-Width: 1429
+Width: 1424
 VWidth: 0
 Flags: HW
 HStem: -613 409<0 409 818 1227> 613 409<409 818>
@@ -379,7 +379,7 @@ EndChar
 
 StartChar: h
 Encoding: 104 104 11
-Width: 1429
+Width: 1424
 VWidth: 0
 Flags: HW
 HStem: 0 21G<0 409 818 1227> 613 409<409 818> 1411 20G<0 409>
@@ -403,7 +403,7 @@ EndChar
 
 StartChar: j
 Encoding: 106 106 12
-Width: 611
+Width: 616
 VWidth: 0
 Flags: HW
 HStem: -409 21G<0 41> 1002 20G<0 409>
@@ -421,7 +421,7 @@ EndChar
 
 StartChar: k
 Encoding: 107 107 13
-Width: 1429
+Width: 1424
 VWidth: 0
 Flags: HW
 HStem: 0 21G<0 409 613 1227> 613 409<409 613 1022 1227> 1411 20G<0 409>
@@ -448,7 +448,7 @@ EndChar
 
 StartChar: l
 Encoding: 108 108 14
-Width: 611
+Width: 616
 VWidth: 0
 Flags: HW
 HStem: 0 21G<0 409> 1411 20G<0 409>
@@ -466,7 +466,7 @@ EndChar
 
 StartChar: m
 Encoding: 109 109 15
-Width: 1837
+Width: 1828
 VWidth: 0
 Flags: HW
 HStem: 0 21G<0 409 613 1022 1227 1635> 613 409<409 613 1022 1227>
@@ -493,7 +493,7 @@ EndChar
 
 StartChar: o
 Encoding: 111 111 16
-Width: 1429
+Width: 1424
 VWidth: 0
 Flags: HW
 HStem: 0 409<409 818> 613 409<409 818>
@@ -515,7 +515,7 @@ EndChar
 
 StartChar: p
 Encoding: 112 112 17
-Width: 1429
+Width: 1424
 VWidth: 0
 Flags: HW
 HStem: -409 21G<0 409> 0 409<409 818> 613 409<409 818>
@@ -540,7 +540,7 @@ EndChar
 
 StartChar: r
 Encoding: 114 114 18
-Width: 1429
+Width: 1424
 VWidth: 0
 Flags: HW
 HStem: 0 21G<0 409> 613 409<409 1227>
@@ -560,7 +560,7 @@ EndChar
 
 StartChar: t
 Encoding: 116 116 19
-Width: 1429
+Width: 1424
 VWidth: 0
 Flags: HW
 HStem: 0 409<409 1227> 613 409<409 818> 1411 20G<369 409>
@@ -584,7 +584,7 @@ EndChar
 
 StartChar: u
 Encoding: 117 117 20
-Width: 1429
+Width: 1424
 VWidth: 0
 Flags: HW
 HStem: 0 409<409 818> 1002 20G<0 409 818 1227>
@@ -607,7 +607,7 @@ EndChar
 
 StartChar: v
 Encoding: 118 118 21
-Width: 1429
+Width: 1424
 VWidth: 0
 Flags: HW
 HStem: 0 409<409 818> 1002 20G<0 409 818 1227>
@@ -629,7 +629,7 @@ EndChar
 
 StartChar: w
 Encoding: 119 119 22
-Width: 1837
+Width: 1828
 VWidth: 0
 Flags: HW
 HStem: 0 409<409 613 1022 1227> 1002 20G<0 409 613 1022 1227 1635>
@@ -656,7 +656,7 @@ EndChar
 
 StartChar: x
 Encoding: 120 120 23
-Width: 1429
+Width: 1424
 VWidth: 0
 Flags: HW
 HStem: 0 409<0 409 818 1227> 613 409<0 409 818 1227>
@@ -681,7 +681,7 @@ EndChar
 
 StartChar: y
 Encoding: 121 121 24
-Width: 1429
+Width: 1424
 VWidth: 0
 Flags: HW
 HStem: -613 409<409 818> 0 409<409 818> 1002 20G<0 409 818 1227>
@@ -707,7 +707,7 @@ EndChar
 
 StartChar: z
 Encoding: 122 122 25
-Width: 1429
+Width: 1424
 VWidth: 0
 Flags: HWO
 HStem: 0 409<818 1227> 613 409<0 409>
