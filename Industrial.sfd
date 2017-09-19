@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1505574909
-ModificationTime: 1505806426
+ModificationTime: 1505806605
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -51,7 +51,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 91 7 1
+WinInfo: 119 7 1
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -1464,7 +1464,7 @@ EndChar
 
 StartChar: slash
 Encoding: 47 47 57
-Width: 1111
+Width: 1313
 VWidth: 0
 Flags: W
 HStem: 0 21G<0 414> 1394 20G<697 1111>
@@ -1481,9 +1481,9 @@ EndChar
 
 StartChar: backslash
 Encoding: 92 92 58
-Width: 2048
+Width: 1313
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -1497,7 +1497,7 @@ EndChar
 
 StartChar: bracketleft
 Encoding: 91 91 59
-Width: 2048
+Width: 808
 VWidth: 0
 Flags: HW
 VStem: 0 606
@@ -1518,9 +1518,9 @@ EndChar
 
 StartChar: bracketright
 Encoding: 93 93 60
-Width: 2048
+Width: 808
 VWidth: 0
-Flags: H
+Flags: HW
 VStem: 0 606
 LayerCount: 2
 Fore
@@ -1539,9 +1539,9 @@ EndChar
 
 StartChar: asciicircum
 Encoding: 94 94 61
-Width: 2048
+Width: 1010
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -1557,9 +1557,9 @@ EndChar
 
 StartChar: underscore
 Encoding: 95 95 62
-Width: 2048
+Width: 1414
 VWidth: 0
-Flags: H
+Flags: HW
 HStem: -404 404
 LayerCount: 2
 Fore
@@ -1574,8 +1574,9 @@ EndChar
 
 StartChar: grave
 Encoding: 96 96 63
-Width: 2048
+Width: 606
 VWidth: 0
+Flags: WO
 HStem: 808 606<375.328 404>
 VStem: 0 404<1010 1414>
 LayerCount: 2
@@ -1593,7 +1594,7 @@ StartChar: asciitilde
 Encoding: 126 126 64
 Width: 1414
 VWidth: 0
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
