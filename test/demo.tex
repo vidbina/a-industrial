@@ -1,0 +1,49 @@
+\documentclass[a4paper]{article}
+\usepackage{fontspec, xunicode, xltxtra}
+\setlength\parindent{0pt}
+%\setmainfont[RawFeature={+liga,+kern,+ss01,+onum},Scale=2.0]{A Industrial Black}
+\setmainfont[Scale=2.0]{A Industrial Black}
+\newfontfamily{\ssone}[StylisticSet=1,Scale=2.0]{A Industrial Black}
+\newfontfamily{\sstwo}[StylisticSet=2,Scale=2.0]{A Industrial Black}
+\newfontfamily{\ssthree}[StylisticSet=3,Scale=2.0]{A Industrial Black}
+\newfontfamily{\ssfour}[StylisticSet=4,Scale=2.0]{A Industrial Black}
+\begin{document}
+\title{\input{../NAME}}
+\date{}
+\maketitle
+%\fontsize{24pt}{36pt}\selectfont
+%\chapter{stylistic sets}
+\section{default}
+\input{content/nato.tex}
+\input{content/others.tex}
+\input{content/numbers.tex}
+
+\newpage
+\ssone
+\section{ss01}
+\input{content/nato.tex}
+\input{content/others.tex}
+\input{content/numbers.tex}
+
+\newpage
+\section{ss02}
+\sstwo
+\input{content/nato.tex}
+\input{content/others.tex}
+\input{content/numbers.tex}
+
+\newpage
+\section{ss03}
+\ssthree
+\input{content/nato.tex}
+\input{content/others.tex}
+\input{content/numbers.tex}
+
+\newpage
+\section{ss04}
+\ssfour
+\input{content/nato.tex}
+\input{content/others.tex}
+\input{content/numbers.tex}
+
+\end{document}
