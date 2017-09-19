@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1505574909
-ModificationTime: 1505845932
+ModificationTime: 1505847226
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -42,9 +42,11 @@ HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
-Lookup: 1 0 0 "'ss01' Style Set 1 in Latin lookup 0" { "'ss01' Style Set 1 in Latin lookup 0 subtable"  } ['ss01' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 1 0 0 "'ss02' Style Set 2 in Latin lookup 1" { "'ss02' Style Set 2 in Latin lookup 1 substable"  } ['ss02' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 1 0 0 "'salt' Stylistic Alternatives in Latin lookup 2" { "'salt' Stylistic Alternatives in Latin lookup 2 subtable"  } ['salt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "'ss01' Style Set 1 in Latin lookup" { "'ss01' Style Set 1 in Latin lookup subtable" ("ss01") } ['ss01' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "'ss02' Style Set 2 in Latin lookup" { "'ss02' Style Set 2 in Latin lookup substable" ("ss02") } ['ss02' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "'ss03' Style Set 3 in Latin lookup" { "'ss03' Style Set 3 in Latin lookup subtable" ("ss03") } ['ss03' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "'ss04' Style Set 4 in Latin lookup" { "'ss04' Style Set 4 in Latin lookup subtable" ("ss04") } ['ss04' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "'salt' Stylistic Alternatives in Latin lookup" { "'salt' Stylistic Alternatives in Latin lookup subtable"  } ['salt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033
@@ -54,7 +56,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 65493 19 3
+WinInfo: 65360 19 8
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -145,9 +147,11 @@ SplineSet
  803 0 409 0 0 0 c 1
 EndSplineSet
 Validated: 1
-Substitution2: "'salt' Stylistic Alternatives in Latin lookup 2 subtable" a.ss01
-Substitution2: "'ss02' Style Set 2 in Latin lookup 1 substable" a.ss02
-Substitution2: "'ss01' Style Set 1 in Latin lookup 0 subtable" a.ss01
+Substitution2: "'ss04' Style Set 4 in Latin lookup subtable" a.ss04
+Substitution2: "'ss03' Style Set 3 in Latin lookup subtable" a.ss03
+Substitution2: "'salt' Stylistic Alternatives in Latin lookup subtable" a.ss01
+Substitution2: "'ss02' Style Set 2 in Latin lookup substable" a.ss02
+Substitution2: "'ss01' Style Set 1 in Latin lookup subtable" a.ss01
 EndChar
 
 StartChar: s
