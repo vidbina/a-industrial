@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1505574909
-ModificationTime: 1505815637
+ModificationTime: 1505817045
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -51,7 +51,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 9 10
+WinInfo: 18 9 4
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -117,7 +117,7 @@ Grid
   Named: "10"
 EndSplineSet
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65537 66
+BeginChars: 65537 67
 
 StartChar: a
 Encoding: 97 97 0
@@ -1712,7 +1712,7 @@ StartChar: quotesingle
 Encoding: 39 39 65
 Width: 606
 VWidth: 0
-Flags: WO
+Flags: W
 HStem: 808 606<0 28.672>
 VStem: 0 404<1010 1414>
 LayerCount: 2
@@ -1723,6 +1723,54 @@ SplineSet
  404 1414 l 25
  404 1010 l 25
  0 808 l 25
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: numbersign
+Encoding: 35 35 66
+Width: 2048
+VWidth: 0
+Flags: HO
+HStem: 0 21G<202 606 808 1212> 202 404<0 202 606 808 1212 1414> 808 404<0 202 606 808 1212 1414> 1394 20G<202 606 808 1212>
+VStem: 202 404<0 202 606 808 1212 1414> 808 404<0 202 606 808 1212 1414>
+LayerCount: 2
+Fore
+SplineSet
+808 606 m 25
+ 808 808 l 17
+ 741 808 673 808 606 808 c 9
+ 606 606 l 25
+ 808 606 l 25
+202 0 m 25
+ 202 202 l 25
+ 0 202 l 25
+ 0 606 l 25
+ 202 606 l 25
+ 202 808 l 25
+ 0 808 l 25
+ 0 1212 l 25
+ 202 1212 l 25
+ 202 1414 l 25
+ 606 1414 l 25
+ 606 1212 l 25
+ 808 1212 l 25
+ 808 1414 l 25
+ 1212 1414 l 25
+ 1212 1212 l 25
+ 1414 1212 l 25
+ 1414 808 l 25
+ 1212 808 l 25
+ 1212 606 l 25
+ 1414 606 l 25
+ 1414 202 l 25
+ 1212 202 l 25
+ 1212 0 l 25
+ 808 0 l 25
+ 808 202 l 25
+ 606 202 l 25
+ 606 0 l 25
+ 202 0 l 25
 EndSplineSet
 EndChar
 EndChars
