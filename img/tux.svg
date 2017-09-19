@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="tux.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.64"
+     inkscape:cx="500.87319"
+     inkscape:cy="479.70554"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     objecttolerance="10000"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-text-baseline="true"
+     inkscape:window-width="2536"
+     inkscape:window-height="1388"
+     inkscape:window-x="10"
+     inkscape:window-y="38"
+     inkscape:window-maximized="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid831" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Backdrop"
+     sodipodi:insensitive="true"
+     style="display:inline">
+    <rect
+       style="fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       id="rect4531"
+       width="214.3125"
+       height="301.625"
+       x="-2.6458333"
+       y="-1.9791666" />
+    <rect
+       style="fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       id="rect4533"
+       width="214.3125"
+       height="89.958336"
+       x="-2.6458333"
+       y="209.6875" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Tux"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <g
+       id="g1505"
+       transform="matrix(-1,0,0,1,100.54167,52.91667)">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1466"
+         d="M 5.291667,119.72916 H 26.458333 V 130.3125 Z"
+         style="fill:#ffcc00;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="ccccccccccccccc"
+         inkscape:connector-curvature="0"
+         id="path1468"
+         d="m 26.458333,119.72916 -3e-6,76.72917 -21.166666,10.58333 h 37.041667 v -10.58333 h 15.875 v 10.58333 h 15.875006 21.16666 l -21.16666,-10.58333 v -13.22917 h 21.16666 l -21.16666,-10.58333 v -52.91667 z"
+         style="fill:#000000;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path1470"
+         d="m 26.458333,196.45833 h 31.75 v -44.97917 h -31.75 z"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <path
+       inkscape:connector-curvature="0"
+       id="path1472"
+       d="m 71.4375,138.25 h 23.547924 v 21.16666 L 105.83334,138.25 h 95.24999 V 69.458333 l -129.645827,-10e-7 z"
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       sodipodi:nodetypes="cccccccc" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="NATO"
+     sodipodi:insensitive="true"
+     style="display:none">
+    <flowRoot
+       transform="matrix(0.26458333,0,0,0.26458333,-20.788912,44.420586)"
+       style="font-style:normal;font-weight:normal;font-size:48px;line-height:25px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none"
+       id="flowRoot880"
+       xml:space="preserve"><flowRegion
+         style="fill:#333333"
+         id="flowRegion876"><rect
+           style="fill:#333333"
+           y="259.66254"
+           x="108.57143"
+           height="54.968323"
+           width="730.00085"
+           id="rect874" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'A Industrial Black';-inkscape-font-specification:'A Industrial Black, ';fill:#333333"
+         id="flowPara878">alpha bravo charlie delta</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot888"
+       style="font-style:normal;font-weight:normal;font-size:48px;line-height:25px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,-20.788912,57.649753)"><flowRegion
+         id="flowRegion884"
+         style="fill:#333333"><rect
+           id="rect882"
+           width="730.00085"
+           height="54.968323"
+           x="108.57143"
+           y="259.66254"
+           style="fill:#333333" /></flowRegion><flowPara
+         id="flowPara886"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'A Industrial Black';-inkscape-font-specification:'A Industrial Black, ';fill:#333333">echo foxtrot golf hotel</flowPara></flowRoot>    <flowRoot
+       transform="matrix(0.26458333,0,0,0.26458333,-20.788912,70.87892)"
+       style="font-style:normal;font-weight:normal;font-size:48px;line-height:25px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none"
+       id="flowRoot896"
+       xml:space="preserve"><flowRegion
+         style="fill:#333333"
+         id="flowRegion892"><rect
+           style="fill:#333333"
+           y="259.66254"
+           x="108.57143"
+           height="54.968323"
+           width="730.00085"
+           id="rect890" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'A Industrial Black';-inkscape-font-specification:'A Industrial Black, ';fill:#333333"
+         id="flowPara894">india juliet kilo lima mike</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot904"
+       style="font-style:normal;font-weight:normal;font-size:48px;line-height:25px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,-20.788912,84.108086)"><flowRegion
+         id="flowRegion900"
+         style="fill:#333333"><rect
+           id="rect898"
+           width="730.00085"
+           height="54.968323"
+           x="108.57143"
+           y="259.66254"
+           style="fill:#333333" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'A Industrial Black';-inkscape-font-specification:'A Industrial Black, ';fill:#333333"
+         id="flowPara906">november oscar papa</flowPara></flowRoot>    <flowRoot
+       transform="matrix(0.26458333,0,0,0.26458333,-20.788912,97.337253)"
+       style="font-style:normal;font-weight:normal;font-size:48px;line-height:25px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none"
+       id="flowRoot918"
+       xml:space="preserve"><flowRegion
+         style="fill:#333333"
+         id="flowRegion914"><rect
+           style="fill:#333333"
+           y="259.66254"
+           x="108.57143"
+           height="54.968323"
+           width="730.00085"
+           id="rect912" /></flowRegion><flowPara
+         id="flowPara916"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'A Industrial Black';-inkscape-font-specification:'A Industrial Black, ';fill:#333333">quebec romeo sierra</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot926"
+       style="font-style:normal;font-weight:normal;font-size:48px;line-height:25px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,-20.788912,110.56642)"><flowRegion
+         id="flowRegion922"
+         style="fill:#333333"><rect
+           id="rect920"
+           width="730.00085"
+           height="54.968323"
+           x="108.57143"
+           y="259.66254"
+           style="fill:#333333" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'A Industrial Black';-inkscape-font-specification:'A Industrial Black, ';fill:#333333"
+         id="flowPara924">tango uniform victor</flowPara></flowRoot>    <flowRoot
+       transform="matrix(0.26458333,0,0,0.26458333,-20.788912,123.79559)"
+       style="font-style:normal;font-weight:normal;font-size:48px;line-height:25px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none"
+       id="flowRoot934"
+       xml:space="preserve"><flowRegion
+         style="fill:#333333"
+         id="flowRegion930"><rect
+           style="fill:#333333"
+           y="259.66254"
+           x="108.57143"
+           height="54.968323"
+           width="730.00085"
+           id="rect928" /></flowRegion><flowPara
+         id="flowPara932"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'A Industrial Black';-inkscape-font-specification:'A Industrial Black, ';fill:#333333">whiskey xray yankee zulu</flowPara></flowRoot>  </g>
+  <g
+     inkscape:label="Text"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot815"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:25px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#e6e6e6;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,-20.788912,-51.482604)"><flowRegion
+         id="flowRegion817"
+         style="fill:#e6e6e6"><rect
+           id="rect819"
+           width="730.00085"
+           height="94.666245"
+           x="108.57143"
+           y="259.66254"
+           style="fill:#e6e6e6" /></flowRegion><flowPara
+         id="flowPara823"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'A Industrial Black';-inkscape-font-specification:'A Industrial Black, ';fill:#e6e6e6">industrial 0.1</flowPara></flowRoot>    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:6.61458302px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="164.63803"
+       y="133.43105"
+       id="text829"><tspan
+         sodipodi:role="line"
+         id="tspan827"
+         x="164.63803"
+         y="139.48752"
+         style="stroke-width:0.26458332" /></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4568"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:50px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#cccccc;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,-20.788912,204.50177)"><flowRegion
+         id="flowRegion4564"
+         style="fill:#cccccc"><rect
+           id="rect4562"
+           width="730.00085"
+           height="114.96832"
+           x="108.57143"
+           y="259.66254"
+           style="fill:#cccccc" /></flowRegion><flowPara
+         id="flowPara4566"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'A Industrial Black';-inkscape-font-specification:'A Industrial Black, ';fill:#cccccc">pid:13374</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4584"
+       style="font-style:normal;font-weight:normal;font-size:48px;line-height:25px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#00ff00;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,50.648588,31.19142)"><flowRegion
+         id="flowRegion4580"
+         style="fill:#00ff00;stroke:none"><rect
+           id="rect4578"
+           width="730.00085"
+           height="94.666245"
+           x="108.57143"
+           y="259.66254"
+           style="fill:#00ff00;stroke:none" /></flowRegion><flowPara
+         id="flowPara4582"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'A Industrial Black';-inkscape-font-specification:'A Industrial Black, ';fill:#00ff00;stroke:none">#ssh 127.0.0.1 </flowPara></flowRoot>    <flowRoot
+       transform="matrix(0.26458333,0,0,0.26458333,88.955295,123.96508)"
+       style="font-style:normal;font-weight:normal;font-size:48px;line-height:50px;font-family:sans-serif;text-align:justify;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#cccccc;fill-opacity:1;stroke:none"
+       id="flowRoot1445"
+       xml:space="preserve"><flowRegion
+         style="text-align:justify;text-anchor:start;fill:#cccccc"
+         id="flowRegion1441"><rect
+           style="text-align:justify;text-anchor:start;fill:#cccccc"
+           y="259.66254"
+           x="108.57143"
+           height="294.96832"
+           width="320.00082"
+           id="rect1439" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'A Industrial Black';-inkscape-font-specification:'A Industrial Black, ';text-align:end;text-anchor:end;fill:#cccccc"
+         id="flowPara1443">#linux</flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'A Industrial Black';-inkscape-font-specification:'A Industrial Black, ';text-align:end;text-anchor:end;fill:#cccccc"
+         id="flowPara1557">#tux</flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'A Industrial Black';-inkscape-font-specification:'A Industrial Black, ';text-align:end;text-anchor:end;fill:#cccccc"
+         id="flowPara1559">kernel</flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'A Industrial Black';-inkscape-font-specification:'A Industrial Black, ';text-align:end;text-anchor:end;fill:#cccccc"
+         id="flowPara1561">ps aux</flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'A Industrial Black';-inkscape-font-specification:'A Industrial Black, ';text-align:end;text-anchor:end;fill:#cccccc"
+         id="flowPara1563">/dev/null</flowPara></flowRoot>    <flowRoot
+       transform="matrix(0.26458333,0,0,0.26458333,50.648588,13.993503)"
+       style="font-style:normal;font-weight:normal;font-size:48px;line-height:25px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#00ff00;fill-opacity:1;stroke:none"
+       id="flowRoot856"
+       xml:space="preserve"><flowRegion
+         style="fill:#00ff00"
+         id="flowRegion852"><rect
+           style="fill:#00ff00"
+           y="259.66254"
+           x="108.57143"
+           height="44.968323"
+           width="730.00085"
+           id="rect850" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'A Industrial Black';-inkscape-font-specification:'A Industrial Black, ';fill:#00ff00"
+         id="flowPara854">#root kill -9</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot872"
+       style="font-style:normal;font-weight:normal;font-size:48px;line-height:25px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#e6e6e6;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,-20.788912,-34.954414)"><flowRegion
+         id="flowRegion868"
+         style="fill:#e6e6e6"><rect
+           id="rect866"
+           width="740.00085"
+           height="54.968323"
+           x="108.57143"
+           y="259.66254"
+           style="fill:#e6e6e6" /></flowRegion><flowPara
+         id="flowPara870"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'A Industrial Black';-inkscape-font-specification:'A Industrial Black, ';fill:#e6e6e6">0xff  \n \0</flowPara></flowRoot>    <flowRoot
+       transform="matrix(0.26458333,0,0,0.26458333,50.648588,49.712253)"
+       style="font-style:normal;font-weight:normal;font-size:48px;line-height:25px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#00ff00;fill-opacity:1;stroke:none"
+       id="flowRoot1513"
+       xml:space="preserve"><flowRegion
+         style="fill:#00ff00;stroke:none"
+         id="flowRegion1509"><rect
+           style="fill:#00ff00;stroke:none"
+           y="259.66254"
+           x="108.57143"
+           height="94.666245"
+           width="730.00085"
+           id="rect1507" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'A Industrial Black';-inkscape-font-specification:'A Industrial Black, ';fill:#00ff00;stroke:none"
+         id="flowPara1511">#ping localhost </flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot1533"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:25px;font-family:'A Industrial Black';-inkscape-font-specification:'A Industrial Black, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="scale(0.26458333)"><flowRegion
+         id="flowRegion1535"><rect
+           id="rect1537"
+           width="80"
+           height="70"
+           x="-80"
+           y="542.51971" /></flowRegion><flowPara
+         id="flowPara1539"></flowPara></flowRoot>  </g>
+</svg>
