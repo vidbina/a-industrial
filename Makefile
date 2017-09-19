@@ -29,6 +29,9 @@ uninstall:
 clean:
 	rm -rf build/*
 
+preview:
+	cd test && xelatex demo.tex
+
 test:
 	cat NAME
 	echo name $(INPUT_NAME)
