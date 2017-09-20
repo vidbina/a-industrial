@@ -2,18 +2,26 @@
 \usepackage{fontspec, xunicode, xltxtra}
 \setlength\parindent{0pt}
 %\setmainfont[RawFeature={+liga,+kern,+ss01,+onum},Scale=2.0]{A Industrial Black}
-\setmainfont[Scale=2.0]{A Industrial Black}
+%\setmainfont[Scale=2.0]{A Industrial Black}
+\newfontfamily{\ssdefault}[Scale=2.0]{A Industrial Black}
 \newfontfamily{\ssone}[StylisticSet=1,Scale=2.0]{A Industrial Black}
 \newfontfamily{\sstwo}[StylisticSet=2,Scale=2.0]{A Industrial Black}
 \newfontfamily{\ssthree}[StylisticSet=3,Scale=2.0]{A Industrial Black}
 \newfontfamily{\ssfour}[StylisticSet=4,Scale=2.0]{A Industrial Black}
 \begin{document}
 \title{\input{../NAME}}
-\date{}
+\author{}
 \maketitle
+\begin{abstract}
+  The different stylistic sets of the font are presented in this preview in order to provide an indication of the alternative glyphs available for use.
+  Considering that Industrial classifies as a Display type, there will be plenty of occasions where the default glyphs fail to produce wordshapes that allow for quick reading.
+\end{abstract}
+
 %\fontsize{24pt}{36pt}\selectfont
 %\chapter{stylistic sets}
+\newpage
 \section{default}
+\ssdefault
 \input{_1.tex}
 
 \newpage
