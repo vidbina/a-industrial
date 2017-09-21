@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1505574909
-ModificationTime: 1506034026
+ModificationTime: 1506035135
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -479,7 +479,7 @@ Substitution2: "'salt' Stylistic Alternatives in Latin lookup subtable" k.ss01
 Substitution2: "'ss04' Style Set 4 in Latin lookup subtable" k.ss04
 Substitution2: "'ss03' Style Set 3 in Latin lookup subtable" k.ss03
 Substitution2: "'ss02' Style Set 2 in Latin lookup substable" k.ss02
-Substitution2: "'ss01' Style Set 1 in Latin lookup subtable" g.ss01
+Substitution2: "'ss01' Style Set 1 in Latin lookup subtable" k.ss01
 EndChar
 
 StartChar: l
