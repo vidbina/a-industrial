@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1505574909
-ModificationTime: 1505847226
+ModificationTime: 1506010507
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -56,7 +56,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 65360 19 8
+WinInfo: 65471 7 10
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -1835,7 +1835,7 @@ EndChar
 
 StartChar: a.ss03
 Encoding: 65539 -1 69
-Width: 1414
+Width: 1515
 VWidth: 0
 Flags: HW
 HStem: 0 404<404 808> 606 404<404 808>
@@ -1859,7 +1859,7 @@ EndChar
 
 StartChar: a.ss04
 Encoding: 65540 -1 70
-Width: 1414
+Width: 1515
 VWidth: 0
 Flags: HW
 HStem: 0 404<404 808> 606 404<404 808>
