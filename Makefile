@@ -35,3 +35,5 @@ $(TEST_PATH)/%.pdf: $(TEST_PATH)/%.tex
 	xelatex -halt-on-error -output-directory=$(dir $@) $<
 
 preview: | $(TEST_PATH)/preview.pdf
+
+.PHONY: clean install prep preview uninstall
