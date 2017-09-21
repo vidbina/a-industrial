@@ -6,9 +6,11 @@ OUTPUT_NAME=$(INPUT_NAME)
 
 SOURCE_DIR=./src
 BUILD_DIR=./build
+TEST_DIR=./test
 
 SOURCE_PATH=${realpath ${SOURCE_DIR}}
 BUILD_PATH=${realpath ${BUILD_DIR}}
+TEST_PATH=${realpath ${TEST_DIR}}
 INSTALL_PATH?=${realpath ${HOME}/.local/share/fonts/}
 
 # TODO: migrate legacy ff script to py
@@ -29,12 +31,7 @@ uninstall:
 clean:
 	rm -rf build/*
 
-preview:
-	cd test && xelatex demo.tex
+$(TEST_PATH)/%.pdf: $(TEST_PATH)/%.tex
+	xelatex -halt-on-error -output-directory=$(dir $@) $<
 
-test:
-	cat NAME
-	echo name $(INPUT_NAME)
-	echo output $(OUTPUT_NAME)
-	echo build $(BUILD_PATH)
-	echo install $(INSTALL_PATH)
+preview: | $(TEST_PATH)/preview.pdf
