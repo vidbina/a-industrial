@@ -13,6 +13,30 @@
 \def\ssclasses{{"default","one","two","three","four", "five"}}
 \def\ssclasslabels{{"default","ss01","ss02","ss03","ss04", "ss05"}}
 
+\newcommand{\altfig}[2]{
+  \begin{figure}[!h]
+    \caption{Glyphs for the letter ``#1"}
+    \label{fig:glyphs-#1}
+    \centering
+    \begin{tikzpicture}
+      \foreach \i in {0,...,#2} {
+        \node[anchor=base] at (\i, 0) {
+          \Huge
+          % using pgfmathparse to retrieve by index
+          \pgfmathparse{\ssclasses[\i]}
+          %\pgfmathresult
+          \csname ss\pgfmathresult \endcsname #1
+        };
+        \node[anchor=base] at (\i, -0.5) {
+          \pgfmathparse{\ssclasslabels[\i]}
+          \pgfmathresult
+        };
+      }
+      \draw (current bounding box.north east) rectangle (current bounding box.south west);
+    \end{tikzpicture}
+  \end{figure}
+}
+
 \begin{document}
 
 \title{\input{../NAME}}

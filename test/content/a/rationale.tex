@@ -2,37 +2,18 @@
 
 The word ``area" presented by default as {\ssdefault area} is hardly
 distinguishable from {\ssdefault oreo} (``oreo") which is why a typesetter may
-decide to use one of the stylistic alternates for ``a" to produce
+decide to use one of the stylistic alternates for ``a" as presented in figure
+\ref{fig:glyphs-a} to produce
 {\ssdefault{\ssone a}re{\ssone a}} (ss01),
 {\ssdefault{\ssthree a}re{\ssthree a}} (ss03) or
 {\ssdefault{\ssfour a}re{\ssfour a}} (ss04).
+The usage of the ss02 ({\ssdefault{\sstwo a}re{\sstwo a}}) and
+ss05 ({\ssdefault{\ssfive a}re{\ssfive a}}) alternates will yield results
+that can be intepreted as ``dred" or ``drod" is why a typesetter may
+have to determine a suitable glyph on a per-case basis to achieve acceptable
+legibility.
 
-The ss02 and ss05 alternatives look more like ``dred" or ``drod", respectively
-{\ssdefault{\sstwo a}re{\sstwo a}} (ss02) or
-{\ssdefault{\ssfive a}re{\ssfive a}} (ss05)
-which fails to improve legibility in this particular case.
-
-\begin{figure}[!h]
-  \caption{Glyphs for the letter ``a"}
-  \label{fig:glyphs-a}
-  \centering
-  \begin{tikzpicture}
-    \foreach \i in {0,1,...,4} {
-      \node[anchor=base] at (\i, 0) {
-        \Huge
-        % using pgfmathparse to retrieve by index
-        \pgfmathparse{\ssclasses[\i]}
-        %\pgfmathresult
-        \csname ss\pgfmathresult \endcsname a
-      };
-      \node[anchor=base] at (\i, -0.5) {
-        \pgfmathparse{\ssclasslabels[\i]}
-        \pgfmathresult
-      };
-    }
-    \draw (current bounding box.north east) rectangle (current bounding box.south west);
-  \end{tikzpicture}
-\end{figure}
+\altfig{a}{4}
 
 The following sections discuss the stylistic alternates available for ``a" and
 presents some cases where these alternates may prove effective.
