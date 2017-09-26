@@ -1,24 +1,28 @@
 \subsection{a}
 
-\begin{tikzpicture}
-  \def\ssclasses{{"default","one","two","three","four"}}
-
-  \foreach \i in {0,1,...,4} {
-    \node[anchor=base] at (\i, 0) {
-      \Huge
-      % using pgfmathparse to retrieve by index
-      \pgfmathparse{\ssclasses[\i]}
-      %\pgfmathresult
-      \csname ss\pgfmathresult \endcsname a
-    };
-    \node[anchor=base] at (\i, 1) {
-      \small
-      \pgfmathparse{\ssclasses[\i]}
-      \pgfmathresult
-    };
-  }
-\end{tikzpicture}
-
+\begin{figure}[!h]
+  \caption{Glyphs for the letter ``a"}
+  \label{fig:glyphs-a}
+  \centering
+  \begin{tikzpicture}
+    \def\ssclasses{{"default","one","two","three","four"}}
+  
+    \foreach \i in {0,1,...,4} {
+      \node[anchor=base] at (\i, 0) {
+        \Huge
+        % using pgfmathparse to retrieve by index
+        \pgfmathparse{\ssclasses[\i]}
+        %\pgfmathresult
+        \csname ss\pgfmathresult \endcsname a
+      };
+      \node[anchor=base] at (\i, -0.5) {
+        \pgfmathparse{\ssclasses[\i]}
+        \pgfmathresult
+      };
+    }
+    \draw (current bounding box.north east) rectangle (current bounding box.south west);
+  \end{tikzpicture}
+\end{figure}
 The word ``area" presented by default as {\ssdefault area} is hardly
 distinguishable from {\ssdefault oreo} (``oreo") which is why a typesetter may
 decide to use one of the stylistic alternates for ``a" to produce
