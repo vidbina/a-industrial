@@ -1,5 +1,43 @@
 \subsection{a}
 
+\begin{tikzpicture}
+  %\def\ssclasses{{default,one,two,three,four}}
+  \def\ssclasses{{"default","one","two","three","four"}}
+
+  \foreach \i in {0,1,...,4} {
+    \node at (\i, \i) {
+      \Huge
+      % using pgfmathparse to retrieve by index
+      ss\pgfmathparse{\ssclasses[\i]}\pgfmathresult a
+    };
+  }
+  
+%  \node(a_default) {
+%    \Huge
+%    {\ssdefault a}
+%  };
+%
+%  \node(a_ss01) at (1, 0) {
+%    \Huge
+%    {\ssone a}
+%  };
+%
+%  \node(a_ss02) at (2, 0) {
+%    \Huge
+%    {\sstwo a}
+%  };
+%
+%  \node(a_ss03) at (3, 0) {
+%    \Huge
+%    {\ssthree a}
+%  };
+%
+%  \node(a_ss04) at (4, 0) {
+%    \Huge
+%    {\ssfour a}
+%  };
+\end{tikzpicture}
+
 The word ``area" presented by default as {\ssdefault area} is hardly
 distinguishable from {\ssdefault oreo} (``oreo") which is why a typesetter may
 decide to use one of the stylistic alternates for ``a" to produce
@@ -73,15 +111,6 @@ introducing a strong bias that depends less on the interpretation of the
 individual letterforms for the interpretation of the word as a whole.
 
 \subsubsection{{\ssthree a}.ss03}
-\begin{tikzpicture}
-  \node[align=center,
-    anchor=base,
-    inner xsep=3em,
-    inner ysep=0pt,
-    outer sep=0pt](text-node) at (0, 0) {
-      example
-    };
-\end{tikzpicture}
 The horizontal spur sloped upwards may at times still be confused for an ``o"
 and may potentially disrupt the flow of a formerly typeset text since
 the space use by this glyph is different as the right bearing has been modified
