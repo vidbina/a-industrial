@@ -5,10 +5,12 @@
   \def\ssclasses{{"default","one","two","three","four"}}
 
   \foreach \i in {0,1,...,4} {
-    \node at (\i, \i) {
+    \node at (\i, 0) {
       \Huge
       % using pgfmathparse to retrieve by index
-      ss\pgfmathparse{\ssclasses[\i]}\pgfmathresult a
+      \pgfmathparse{\ssclasses[\i]}
+      %\pgfmathresult
+      \csname ss\pgfmathresult \endcsname a
     };
   }
   
