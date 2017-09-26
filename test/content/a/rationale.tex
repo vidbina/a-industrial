@@ -1,43 +1,22 @@
 \subsection{a}
 
 \begin{tikzpicture}
-  %\def\ssclasses{{default,one,two,three,four}}
   \def\ssclasses{{"default","one","two","three","four"}}
 
   \foreach \i in {0,1,...,4} {
-    \node at (\i, 0) {
+    \node[anchor=base] at (\i, 0) {
       \Huge
       % using pgfmathparse to retrieve by index
       \pgfmathparse{\ssclasses[\i]}
       %\pgfmathresult
       \csname ss\pgfmathresult \endcsname a
     };
+    \node[anchor=base] at (\i, 1) {
+      \small
+      \pgfmathparse{\ssclasses[\i]}
+      \pgfmathresult
+    };
   }
-  
-%  \node(a_default) {
-%    \Huge
-%    {\ssdefault a}
-%  };
-%
-%  \node(a_ss01) at (1, 0) {
-%    \Huge
-%    {\ssone a}
-%  };
-%
-%  \node(a_ss02) at (2, 0) {
-%    \Huge
-%    {\sstwo a}
-%  };
-%
-%  \node(a_ss03) at (3, 0) {
-%    \Huge
-%    {\ssthree a}
-%  };
-%
-%  \node(a_ss04) at (4, 0) {
-%    \Huge
-%    {\ssfour a}
-%  };
 \end{tikzpicture}
 
 The word ``area" presented by default as {\ssdefault area} is hardly
