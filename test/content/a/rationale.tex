@@ -1,28 +1,5 @@
 \subsection{a}
 
-\begin{figure}[!h]
-  \caption{Glyphs for the letter ``a"}
-  \label{fig:glyphs-a}
-  \centering
-  \begin{tikzpicture}
-    \def\ssclasses{{"default","one","two","three","four"}}
-  
-    \foreach \i in {0,1,...,4} {
-      \node[anchor=base] at (\i, 0) {
-        \Huge
-        % using pgfmathparse to retrieve by index
-        \pgfmathparse{\ssclasses[\i]}
-        %\pgfmathresult
-        \csname ss\pgfmathresult \endcsname a
-      };
-      \node[anchor=base] at (\i, -0.5) {
-        \pgfmathparse{\ssclasses[\i]}
-        \pgfmathresult
-      };
-    }
-    \draw (current bounding box.north east) rectangle (current bounding box.south west);
-  \end{tikzpicture}
-\end{figure}
 The word ``area" presented by default as {\ssdefault area} is hardly
 distinguishable from {\ssdefault oreo} (``oreo") which is why a typesetter may
 decide to use one of the stylistic alternates for ``a" to produce
@@ -34,6 +11,28 @@ The ss02 and ss05 alternatives look more like ``dred" or ``drod", respectively
 {\ssdefault{\sstwo a}re{\sstwo a}} (ss02) or
 {\ssdefault{\ssfive a}re{\ssfive a}} (ss05)
 which fails to improve legibility in this particular case.
+
+\begin{figure}[!h]
+  \caption{Glyphs for the letter ``a"}
+  \label{fig:glyphs-a}
+  \centering
+  \begin{tikzpicture}
+    \foreach \i in {0,1,...,4} {
+      \node[anchor=base] at (\i, 0) {
+        \Huge
+        % using pgfmathparse to retrieve by index
+        \pgfmathparse{\ssclasses[\i]}
+        %\pgfmathresult
+        \csname ss\pgfmathresult \endcsname a
+      };
+      \node[anchor=base] at (\i, -0.5) {
+        \pgfmathparse{\ssclasslabels[\i]}
+        \pgfmathresult
+      };
+    }
+    \draw (current bounding box.north east) rectangle (current bounding box.south west);
+  \end{tikzpicture}
+\end{figure}
 
 The following sections discuss the stylistic alternates available for ``a" and
 presents some cases where these alternates may prove effective.
