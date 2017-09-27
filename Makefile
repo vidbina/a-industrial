@@ -1,7 +1,10 @@
 FONTFORGE=fontforge
 MKDIR=mkdir
 
-INPUT_NAME=$(shell cat NAME)
+empty:=
+space:=$(empty) $(empty)
+
+INPUT_NAME=$(subst $(space),_,$(shell cat NAME))
 OUTPUT_NAME=$(INPUT_NAME)
 
 SOURCE_DIR=./src
